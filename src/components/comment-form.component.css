@@ -1,0 +1,49 @@
+input[type="text"] {
+  padding: 17px 20px;
+  font-size: large;
+  border-radius: 10px;
+}
+
+#label {
+  font-weight: normal;
+}
+
+textarea {
+  text-align: "left";
+  padding: 10px;
+  font-size: large;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
+
+.submitButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(16, 110, 190);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comment-form {
+  /* background-color: #282c34; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: calc(10px + 2vmin);
+}
+
+.comment-form1 {
+  display: contents;
+}
+
+.error-text {
+  font-size: smaller;
+  color: red;
+}

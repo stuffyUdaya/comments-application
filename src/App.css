@@ -1,0 +1,28 @@
+.wrapper{
+  display: flex;
+  width:80%;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  background: #ddd;
+  padding: 20px;
+  flex: 1 0 300px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .wrapper {
+    width: 80%;
+  }
+}
